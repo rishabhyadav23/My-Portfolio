@@ -16,7 +16,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// Intersection Observer for animations
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
